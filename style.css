@@ -209,6 +209,8 @@ html {
     transition: all 0.50s linear;
 }
 
+
+
 .post-slide:hover .over-layer {
     opacity: 1;
     text-decoration: none;
