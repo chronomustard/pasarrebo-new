@@ -76,6 +76,12 @@ html, body {
     font-family: 'Roboto', sans-serif;
     color:#111;
 }
+
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
 .text-rp-white{
     font-family: 'Roboto', sans-serif;
     color:#fff;
@@ -88,6 +94,13 @@ html, body {
 .no-padding{
     padding: 0px !important;
    }
+
+.btn-outline-danger, .btn-outline-danger:hover, .btn-outline-danger:active, .btn-outline-danger:visited {
+    background-color: #fff !important;
+    border-color:#961C1B !important;
+    outline-color:#961C1B;
+    color: #961C1B !important;
+}
 
 /* width */
 ::-webkit-scrollbar {
